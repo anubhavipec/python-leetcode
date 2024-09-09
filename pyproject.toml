@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-leetcode"
+version = "0.1.0"
+description = ""
+authors = ["Anubhav Gupta <aanubhav04@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pylance = "^0.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
