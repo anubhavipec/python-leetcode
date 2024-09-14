@@ -13,16 +13,18 @@ class Solution:
         q = deque()
         if root:
             q.append(root)
-            
-        while q :
+        
+        while q:
             val = []
             for i in range(len(q)):
                 node = q.popleft()
                 val.append(node.val)
-                if node.left:
+                if node.left :
                     q.append(node.left)
-                if node.right:
+                if node.right :
                     q.append(node.right)
             res.append(val)
         return res
+            
+            
         
