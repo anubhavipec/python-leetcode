@@ -1,0 +1,21 @@
+
+
+#backtracking template
+
+When drawing the tree, bear in mind:
+
+how do we know if we have reached a solution?
+how do we branch (generate possible children)?
+
+def problem_to_solve_dfs(start_index,path):
+    if is_leaf(start_index):
+        report(path)
+        return
+    
+    for edge in get_edges(start_index):
+        path.add(edge)
+        problem_to_solve_dfs(start_index,path)
+        path.pop()
+        
+        
+start_index is used to keep track of the current level of the state-space tree we are in.
