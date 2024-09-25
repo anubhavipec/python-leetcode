@@ -42,8 +42,7 @@ class Solution:
         
         n = len(board)
         m = len(board[0])
-        
-        moves = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+    
         result , visit = set(), set()
         trie = PrefixNode()
         for word in words:
