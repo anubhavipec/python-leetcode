@@ -5,7 +5,7 @@ from typing import List
    ( )
   ( ) ( )
 ( )
-n-matching paranthesis, n =2 , ()(), (()) 
+n-matching paranthesis, n =2 , ()(), (()) /Users/anubhav/Documents/faang/python-leetcode/blind75/bfs_btree.py
 it will have n/2 (  and n/2 )
 '''
 def generate_parentheses(n: int) -> List[str]:
